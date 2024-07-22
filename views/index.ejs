@@ -1,0 +1,29 @@
+<html>
+   <head>
+               <link rel="stylesheet" href="style.css">
+   </head>
+            <body>
+                  <h1>Currency exchanger</h1>
+                        <form method="post" action="/">
+                                    <input type="number" name="cno" placeholder="enter a currrency">
+                                    <select name="fromcurrency">
+                                                <option value="INR">indian rupees</option>
+                                                <option value="USD">usd</option>
+                                                <option value="EUR">euro</option>
+                                    </select>
+                                    <select name="tocurrency">
+                                                <option value="INR">indian rupees</option>
+                                                <option value="USD">usd</option>
+                                                <option value="EUR">euro</option>
+                                    </select>
+                                    <button type="submit"> submit</button>
+                                    
+                                    
+                        </form>
+                        <p>converted currency: <%= serveroutput %></p>
+                                   
+                                                
+                                                
+
+            </body>
+</html>
